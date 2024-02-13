@@ -13,6 +13,8 @@ namespace ConsoleApp1
             Console.Write("Введите значения параметра x = ");
             string s = Console.ReadLine();
             double x = Convert.ToDouble(s);
+
+            double F = 4 * Math.Sin(x) * 5 * Math.Cos(x);
         }
     }
 }
